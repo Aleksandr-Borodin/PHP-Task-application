@@ -2,9 +2,9 @@
 class Database {
   // Базовые настройки подключения;
   public function setting() {
-    $dsn = 'mysql:dbname=aleksandrov477;host=mysql.zzz.com.ua;charset=utf8';
-    $user = 'aleksandrov477';
-    $password = 'charli21';
+    $dsn = '';
+    $user = '';
+    $password = '';
     try {
       $dbh = new PDO($dsn, $user, $password);
     }
